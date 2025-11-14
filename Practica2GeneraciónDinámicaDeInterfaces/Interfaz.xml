@@ -4,13 +4,13 @@
 	<Control Tipo="MenuStrip" Nombre="menuPrincipal" Texto="" X="0" Y="0" Ancho="600" Alto="24">
 
 		<Control Tipo="MenuItem" Nombre="menuArchivo" Texto="Archivo" X="0" Y="0" Ancho="0" Alto="0">
+			<Control Tipo="MenuItem" Nombre="menuGuardar" Texto="Guardar" X="0" Y="0" Ancho="0" Alto="0" />
 			<Control Tipo="MenuItem" Nombre="menuSalir" Texto="Salir" X="0" Y="0" Ancho="0" Alto="0" />
 		</Control>
 
 		<Control Tipo="MenuItem" Nombre="menuAyuda" Texto="Ayuda" X="0" Y="0" Ancho="0" Alto="0">
 			<Control Tipo="MenuItem" Nombre="menuAcercaDe" Texto="Acerca de..." X="0" Y="0" Ancho="0" Alto="0" />
 		</Control>
-
 	</Control>
 
 	<Control Tipo="Label" Nombre="lblBienvenida" Texto="Gestión de Usuarios" X="20" Y="40" Ancho="300" Alto="20" />
@@ -21,10 +21,15 @@
 		<Control Tipo="Columna" Nombre="colRol" Texto="Rol" X="0" Y="0" Ancho="0" Alto="0" Opciones="Admin,Usuario,Invitado" />
 	</Control>
 
-	<Control Tipo="Panel" Nombre="panelBotones" Texto="" X="20" Y="240" Ancho="400" Alto="60">
+	<Control Tipo="Label" Nombre="lblBuscar" Texto="Buscar:" X="20" Y="230" Ancho="60" Alto="20" />
+	<Control Tipo="TextBox" Nombre="txtBuscar" Texto="" X="80" Y="230" Ancho="340" Alto="20" />
+
+	<Control Tipo="Panel" Nombre="panelBotones" Texto="" X="20" Y="260" Ancho="400" Alto="60">
 		<Control Tipo="Button" Nombre="btnAnadir" Texto="Añadir" X="10" Y="15" Ancho="100" Alto="30" />
 		<Control Tipo="Button" Nombre="btnEditar" Texto="Editar" X="120" Y="15" Ancho="100" Alto="30" />
 		<Control Tipo="Button" Nombre="btnEliminar" Texto="Eliminar" X="230" Y="15" Ancho="100" Alto="30" />
 	</Control>
+
+	<Control Tipo="StatusStrip" Nombre="statusBar" Texto="" X="0" Y="0" Ancho="0" Alto="0" />
 
 </Formulario>
